@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MSDN.Samples.ClaimsAuth
+namespace ClaimsAuth
 {
     public static class Constants
     {

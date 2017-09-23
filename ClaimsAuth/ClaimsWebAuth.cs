@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Globalization;
 
-namespace MSDN.Samples.ClaimsAuth
+namespace ClaimsAuth
 {
     /// <summary>
     /// Provides means to authenticate a user via a pop up login form.

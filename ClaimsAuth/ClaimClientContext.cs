@@ -8,7 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 using Microsoft.SharePoint.Client;
 
 
-namespace MSDN.Samples.ClaimsAuth
+namespace ClaimsAuth
 {
     public static class ClaimClientContext
     {
