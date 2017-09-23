@@ -8,7 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 using Microsoft.SharePoint.Client;
 
 
-namespace ClaimsAuth
+namespace SharePointOnlineWebBrowserAuth
 {
     public static class ClaimClientContext
     {

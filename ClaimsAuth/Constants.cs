@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ClaimsAuth
+namespace SharePointOnlineWebBrowserAuth
 {
     public static class Constants
     {

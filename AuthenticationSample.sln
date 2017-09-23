@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsAuth", "ClaimsAuth\ClaimsAuth.csproj", "{2F63BAE9-2A4A-4027-9937-C1A63731B17D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointOnlineWebBrowserAuth", "ClaimsAuth\SharePointOnlineWebBrowserAuth.csproj", "{2F63BAE9-2A4A-4027-9937-C1A63731B17D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSharePointBrowserAuthWPF", "TestSharePointBrowserAuthWPF\TestSharePointBrowserAuthWPF.csproj", "{DA24F0E5-D3F4-42E5-81BB-3A46E5A70F40}"
 EndProject

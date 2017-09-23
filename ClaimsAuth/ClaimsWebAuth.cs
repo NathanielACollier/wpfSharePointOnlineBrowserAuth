@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Globalization;
 
-namespace ClaimsAuth
+namespace SharePointOnlineWebBrowserAuth
 {
     /// <summary>
     /// Provides means to authenticate a user via a pop up login form.

@@ -23,7 +23,7 @@ namespace TestSharePointBrowserAuthWPF
         {
             string targetSite = SiteUrlTextBox.Text;
 
-            using (ClientContext ctx = ClaimsAuth. ClaimClientContext.GetAuthenticatedContext(targetSite))
+            using (ClientContext ctx = SharePointOnlineWebBrowserAuth.ClaimClientContext.GetAuthenticatedContext(targetSite))
             {
                 if (ctx != null)
                 {

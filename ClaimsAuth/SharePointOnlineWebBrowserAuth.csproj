@@ -8,8 +8,8 @@
     <ProjectGuid>{2F63BAE9-2A4A-4027-9937-C1A63731B17D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClaimsAuth</RootNamespace>
-    <AssemblyName>ClaimsAuth</AssemblyName>
+    <RootNamespace>SharePointOnlineWebBrowserAuth</RootNamespace>
+    <AssemblyName>SharePointOnlineWebBrowserAuth</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

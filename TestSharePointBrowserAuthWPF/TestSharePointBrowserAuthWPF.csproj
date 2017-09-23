@@ -140,9 +140,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClaimsAuth\ClaimsAuth.csproj">
+    <ProjectReference Include="..\ClaimsAuth\SharePointOnlineWebBrowserAuth.csproj">
       <Project>{2f63bae9-2a4a-4027-9937-c1a63731b17d}</Project>
-      <Name>ClaimsAuth</Name>
+      <Name>SharePointOnlineWebBrowserAuth</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
