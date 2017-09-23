@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <DockPanel>
         <DockPanel DockPanel.Dock="Top">
-            <Button Content="Go" Name="GetSharePointButton" Click="GetSharePointButton_Click" />
+            <Button Content="Go" Name="GetSharePointButton" DockPanel.Dock="Right" Click="GetSharePointButton_Click" />
             <TextBlock Text="Site Url: " DockPanel.Dock="Left" />
             <TextBox Name="SiteUrlTextBox" DockPanel.Dock="Left" />
         </DockPanel>
