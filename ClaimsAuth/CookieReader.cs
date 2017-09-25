@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Runtime.InteropServices;
+using System.Net;
 
 namespace SharePointOnlineWebBrowserAuth
 {
@@ -55,5 +56,32 @@ namespace SharePointOnlineWebBrowserAuth
             }
             return sb.ToString();
         }
+
+
+        public static CookieCollection GetCookieCollection(string url)
+        {
+            Uri uriBase = new Uri(url);
+            Uri uri = new Uri(uriBase, "/");
+            return GetCookieCollection(uri);
+        }
+
+        public static CookieCollection GetCookieCollection(Uri uri)
+        {
+
+            return GetCookieContainer(uri).GetCookies(uri);
+        }
+
+        public static CookieContainer GetCookieContainer(Uri uri)
+        {
+            // call WinInet.dll to get cookie.
+            string stringCookie = GetCookie(uri.ToString());
+            if (string.IsNullOrEmpty(stringCookie)) return null;
+            stringCookie = stringCookie.Replace("; ", ",").Replace(";", ",");
+            // use CookieContainer to parse the string cookie to CookieCollection
+            CookieContainer cookieContainer = new CookieContainer();
+            cookieContainer.SetCookies(uri, stringCookie);
+            return cookieContainer;
+        }
+
     }
 }

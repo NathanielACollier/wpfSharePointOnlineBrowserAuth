@@ -19,11 +19,11 @@ namespace TestSharePointBrowserAuthWPF
             InitializeComponent();
         }
 
-        private void GetSharePointButton_Click(object sender, RoutedEventArgs e)
+        private async void GetSharePointButton_Click(object sender, RoutedEventArgs e)
         {
             string targetSite = SiteUrlTextBox.Text;
 
-            using (ClientContext ctx = SharePointOnlineWebBrowserAuth.ClaimClientContext.GetAuthenticatedContext(targetSite))
+            using (ClientContext ctx = await SharePointOnlineWebBrowserAuth.Browser.GetAuthenticatedContext(targetSite))
             {
                 if (ctx != null)
                 {
